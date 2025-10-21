@@ -24,7 +24,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="flex flex-col lg:flex-row gap-6">
-                  <a href="" className="bg-white hover:bg-[#BEDDFF] flex items-center justify-center border-azul text-azul px-4 py-3 rounded-[4px]">
+                  <a href="https://wa.me/5521964757037?text=Olá,%20gostaria%20de%20entrar%20em%20contato%20para%20consultorias%20estratégicas,%20conselhos%20executivos%20ou%20convites%20para%20palestras%20e%20aulas" target="_blank" rel="noopener noreferrer" className="bg-white hover:bg-[#BEDDFF] flex items-center justify-center border-azul text-azul px-4 py-3 rounded-[4px]">
                     Entrar em Contato
                   </a>
                   <a href="" className="bg-azul hover:bg-white flex items-center justify-center border border-white text-white hover:text-azul px-4 py-3 rounded-[4px]">
@@ -42,26 +42,26 @@ export default function Home() {
                   Saiba como eu posso te ajudar
                 </p>
                 <div className="flex flex-col lg:flex-row w-full gap-[24px]">
-                  <div className="flex flex-col items-center text-center border border-cinza-borda p-4 gap-4 rounded-[12px] outline outline-1 outline-gray-300">
+                  <div className="flex flex-col items-center text-center border border-cinza-borda p-4 gap-4 rounded-[12px] outline outline-1 outline-gray-300 flex-1">
                     <div className="p-[22px]">
                       <PiSuitcaseSimple className="text-azul w-[44px] h-[44px]"/>
                     </div>
                     <p className="text-azul text-[22px] leading-[32px]">Consultoria Estratégica</p>
-                    <p className="text-center text-preto text-[16px] leading-[24px]">Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam mauris sed ma</p>
+                    <p className="text-center text-preto text-[16px] leading-[24px]">Posicionamento da empresa e na direção de longo prazo, e não apenas em processos operacionais.</p>
                   </div>
-                  <div className="flex flex-col items-center text-center border border-cinza-borda p-4 gap-4 rounded-[12px] outline outline-1 outline-gray-300">
+                  <div className="flex flex-col items-center text-center border border-cinza-borda p-4 gap-4 rounded-[12px] outline outline-1 outline-gray-300 flex-1">
                     <div className="p-[22px]">
                       <FaRegHandshake className="text-azul w-[44px] h-[44px]"/>
                     </div>
                     <p className="text-azul text-[22px] leading-[32px]">Convites</p>
-                    <p className="text-center text-preto text-[16px] leading-[24px]">Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam mauris sed ma</p>
+                    <p className="text-center text-preto text-[16px] leading-[24px]">Experiência de alto nível para fornecer orientação estratégica, insights e apoio no desenvolvimento de liderança.</p>
                   </div>
-                  <div className="flex flex-col items-center text-center border border-cinza-borda p-4 gap-4 rounded-[12px] outline outline-1 outline-gray-300">
+                  <div className="flex flex-col items-center text-center border border-cinza-borda p-4 gap-4 rounded-[12px] outline outline-1 outline-gray-300 flex-1">
                     <div className="p-[22px]">
                       <HiOutlineChatBubbleLeftRight className="text-azul w-[44px] h-[44px]"/>
                     </div>
                     <p className="text-azul text-[22px] leading-[32px]">Consultoria Estratégica</p>
-                    <p className="text-center text-preto text-[16px] leading-[24px]">Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam mauris sed ma</p>
+                    <p className="text-center text-preto text-[16px] leading-[24px]">Do Insight à Ação de Alto Impacto: Convide-me para palestras e aulas que transformam a visão executiva em resultados concretos.</p>
                   </div>
                 </div>
               </div>
@@ -70,9 +70,9 @@ export default function Home() {
                   <div className="flex flex-col gap-6">
                     <div className="flex flex-col">
                       <p className="text-azul text-[16px] leading-[24px]">Sobre mim</p>
-                      <p className="text-azul text-[26px] leading-[32px] lg:text-[32px] lg:leading-[40px]">Conheça Marcos Silva - Consultoria pessoal para mudar o que precisa</p>
+                      <p className="text-azul text-[26px] leading-[32px] lg:text-[32px] lg:leading-[40px] text-justify">Conheça Marcos Silva - Consultoria pessoal para mudar o que precisa</p>
                     </div>
-                    <p className="text-azul text-[16px] leading-[24px] lg:leading-[22px]">
+                    <p className="text-azul text-[16px] leading-[24px] lg:leading-[22px] text-justify">
                       Sou Marcos Paulo Silva, um líder com formação em Administração pela UFRRJ (2004)
                       e uma carreira sólida, focada em tecnologia, gestão estratégica e inovação.<br /><br />
                       Como CIO (Chief Information Officer), lidero a visão e execução de projetos que estão
@@ -83,7 +83,7 @@ export default function Home() {
                     <div className="flex flex-col pt-6">
                       <p className="text-azul text-[22px] leading-[32px]">Conhecimento e Compartilhamento</p>
                     </div>
-                    <p className="text-azul text-[16px] leading-[24px]">
+                    <p className="text-azul text-[16px] leading-[24px] text-justify">
                       Com o objetivo de multiplicar o conhecimento adquirido ao longo de minha trajetória, dedico parte do meu tempo a palestras e aulas acadêmicas. Nesses espaços, abordo temas cruciais para o sucesso no cenário atual:
                     </p>
                     <ul className="list-disc pl-5 pb-6 text-azul text-[16px] leading-[24px]">
@@ -93,15 +93,15 @@ export default function Home() {
                     </ul>
                   </div>
                   <div className="flex flex-col lg:flex-row gap-6">
-                    <div className="border border-azul flex flex-col rounded-[6px] items-center p-4">
+                    <div className="flex-1 border border-azul flex flex-col rounded-[6px] items-center p-4">
                       <p className="text-azul text-[32px] leading-[40px]">34+</p>
                       <p className="text-azul text-[20px] leading-[28px]">Anos de experiência</p>
                     </div>
-                    <div className="border border-azul flex flex-col rounded-[6px] items-center p-4">
+                    <div className="flex-1 border border-azul flex flex-col rounded-[6px] items-center p-4">
                       <p className="text-azul text-[32px] leading-[40px]">200+</p>
                       <p className="text-azul text-[20px] leading-[28px]">Projetos finalizados</p>
                     </div>
-                    <div className="border border-azul flex flex-col rounded-[6px] items-center p-4">
+                    <div className="flex-1 border border-azul flex flex-col rounded-[6px] items-center p-4">
                       <p className="text-azul text-[32px] leading-[40px]">97%</p>
                       <p className="text-azul text-[20px] leading-[28px]">Clientes satisfeitos</p>
                     </div>
@@ -124,35 +124,35 @@ export default function Home() {
               <div className="flex flex-col gap-[22px]">
                 <div className="flex gap-6 bg-white px-[26px] py-[34px] rounded-[6px]">
                   <div className="flex flex-col gap-4">
-                    <p className="text-[22px] leading-[32px] text-azul">1. Laboratório de Inovação Tecnológica</p>
+                    <p className="text-[22px] leading-[32px] text-azul">Laboratório de Inovação Tecnológica</p>
                     <p className="text-[16px] leading-[22px] text-azul"><span className="font-bold">Resumo: </span>Estrutura corporativa voltada à pesquisa aplicada e inovação digital.</p>
                     <p className="text-[16px] leading-[22px] text-azul">Liderei a criação de um laboratório de inovação dedicado a aplicar tecnologias emergentes — como Inteligência Artificial, automação e análise de dados — na modernização de processos corporativos. A iniciativa integrou pesquisa aplicada, desenvolvimento de protótipos e parcerias estratégicas, posicionando a organização na vanguarda da transformação digital e fortalecendo sua competitividade tecnológica e operacional.</p>
                   </div>
                 </div>
                 <div className="flex gap-6 bg-white px-[26px] py-[34px] rounded-[6px]">
                   <div className="flex flex-col gap-4">
-                    <p className="text-[22px] leading-[32px] text-azul">2. Portal Estratégico de Conteúdo Setorial</p>
+                    <p className="text-[22px] leading-[32px] text-azul">Portal Estratégico de Conteúdo Setorial</p>
                     <p className="text-[16px] leading-[22px] text-azul"><span className="font-bold">Resumo: </span>Hub de inteligência e tendências em transformação digital.</p>
                     <p className="text-[16px] leading-[22px] text-azul">Conduzi o desenvolvimento de um portal corporativo de notícias e análises estratégicas, voltado à difusão de conhecimento sobre inovação, automação e sustentabilidade. O projeto conectou executivos e especialistas, traduzindo o impacto da digitalização em insights práticos e consolidando o portal como uma referência de inteligência setorial.</p>
                   </div>
                 </div>
                 <div className="flex gap-6 bg-white px-[26px] py-[34px] rounded-[6px]">
                   <div className="flex flex-col gap-4">
-                    <p className="text-[22px] leading-[32px] text-azul">3. Conferência Internacional de Inovação e Tecnologia</p>
+                    <p className="text-[22px] leading-[32px] text-azul">Conferência Internacional de Inovação e Tecnologia</p>
                     <p className="text-[16px] leading-[22px] text-azul"><span className="font-bold">Resumo: </span>Evento corporativo para integração entre academia e mercado.</p>
                     <p className="text-[16px] leading-[22px] text-azul">Idealizei e liderei a organização de uma conferência internacional sobre inovação tecnológica, reunindo especialistas em Inteligência Artificial, Pesquisa Operacional e transformação digital. O evento se tornou um espaço de referência para discutir tendências e compartilhar práticas de eficiência e otimização em operações complexas, aproximando teoria, tecnologia e estratégia empresarial.</p>
                   </div>
                 </div>
                 <div className="flex gap-6 bg-white px-[26px] py-[34px] rounded-[6px]">
                   <div className="flex flex-col gap-4">
-                    <p className="text-[22px] leading-[32px] text-azul">4. Estratégia de Internacionalização Digital</p>
+                    <p className="text-[22px] leading-[32px] text-azul">Estratégia de Internacionalização Digital</p>
                     <p className="text-[16px] leading-[22px] text-azul"><span className="font-bold">Resumo: </span>Estrutura corporativa voltada à pesquisa aplicada e inovação digital.</p>
                     <p className="text-[16px] leading-[22px] text-azul">Coordenei uma estratégia de internacionalização digital, incorporando soluções de análise de dados, cloud computing e inteligência artificial para otimizar a atuação da organização em novos mercados. A iniciativa resultou em eficiência operacional, personalização de atendimento e maior alcance global, transformando a expansão internacional em um processo ágil e orientado por dados.</p>
                   </div>
                 </div>
               </div>
               <div className="w-full flex justify-center text-center">
-                <a href="" className="bg-azul-claro hover:bg-white text-white hover:text-azul w-full max-w-[524px] py-3 rounded-[4px]">
+                <a href="https://wa.me/5521964757037?text=Olá,%20gostaria%20de%20entrar%20em%20contato%20para%20consultorias%20estratégicas,%20conselhos%20executivos%20ou%20convites%20para%20palestras%20e%20aulas" target="_blank" rel="noopener noreferrer" className="bg-azul-claro hover:bg-white text-white hover:text-azul w-full max-w-[524px] py-3 rounded-[4px]">
                   Entrar em contato agora
                 </a>
               </div>
@@ -166,7 +166,7 @@ export default function Home() {
               <div className="flex flex-col lg:justify-between lg:flex-row gap-4 text-[22px] leading-[32px]">
                 <div className="flex flex-col gap-6 lg:w-[348px]">
                   <a className="text-[#7BBCFE] hover:text-azul" href="">Formação Acadêmica</a>
-                  <a className="text-[#737373] hover:text-azul" href="">Certificados</a>
+                  <a className="text-[#737373] hover:text-azul" href="">Eventos e Publicações de Relevância Profissional</a>
                   <a className="text-[#737373] hover:text-azul" href="">Outros</a>
                 </div>
                 <div className="flex flex-col gap-5 lg:w-[720px]">

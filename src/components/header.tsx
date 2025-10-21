@@ -33,7 +33,7 @@ function Header() {
           <a href="#" className="hover:text-azul-claro transition">
             Projetos
           </a>
-          <a href="" className="bg-azul text-white px-4 py-2 rounded-md">
+          <a href="https://wa.me/5521964757037?text=Olá,%20gostaria%20de%20entrar%20em%20contato%20para%20consultorias%20estratégicas,%20conselhos%20executivos%20ou%20convites%20para%20palestras%20e%20aulas" target="_blank" rel="noopener noreferrer" className="bg-azul text-white px-4 py-2 rounded-md hover:bg-[#BEDDFF] hover:text-azul">
             Entrar em Contato
           </a>
         </nav>
@@ -68,7 +68,7 @@ function Header() {
           <a href="#" className="hover:text-azul-claro transition">
             Projetos
           </a>
-          <a href="" className="bg-azul hover:bg-azul-claro text-white px-4 py-2 rounded-md">
+          <a href="https://wa.me/5521964757037?text=Olá,%20gostaria%20de%20entrar%20em%20contato%20para%20consultorias%20estratégicas,%20conselhos%20executivos%20ou%20convites%20para%20palestras%20e%20aulas" target="_blank" rel="noopener noreferrer" className="bg-azul text-white px-4 py-2 rounded-md hover:bg-[#BEDDFF] hover:text-azul">
             Entrar em Contato
           </a>
         </div>
