@@ -46,20 +46,11 @@ function Footer() {
             </div>
 
             <div className="flex gap-4 justify-center">
-                <a className="bg-azul p-1 rounded-[4px]" href="">
-                    <img src="/1.35 - Social media.svg" alt="" />
-                </a>
-                <a className="bg-azul p-1 rounded-[4px]" href="">
-                    <img src="/1.35 - Social media (1).svg" alt="" />
-                </a>
-                <a className="bg-azul p-1 rounded-[4px]" href="">
+                <a className="bg-azul p-1 rounded-[4px]" href="https://www.instagram.com/mprls_silva/" target="_blank" rel="noopener noreferrer">
                     <img src="/1.35 - Social media (2).svg" alt="" />
                 </a>
-                <a className="bg-azul p-1 rounded-[4px]" href="">
+                <a className="bg-azul p-1 rounded-[4px]" href="https://www.linkedin.com/in/mprlsilva/" target="_blank" rel="noopener noreferrer">
                     <img src="/1.35 - Social media (3).svg" alt="" />
-                </a>
-                <a className="bg-azul p-1 rounded-[4px]" href="">
-                    <img src="/1.35 - Social media (4).svg" alt="" />
                 </a>
             </div>
 

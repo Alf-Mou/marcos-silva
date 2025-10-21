@@ -12,7 +12,7 @@ export default function Home() {
       <Header/>
       <div className="lg:justify-center  flex flex-col gap-6 items-center">
         <div className="w-full">
-          <div className="bg-azul flex justify-center">
+          <div className="bg-[url('/image%20hero%201.svg')] bg-cover flex justify-center">
             <div className="w-full max-w-[1440px] p-4 lg:px-[96px] lg:py-[202px]">
               <div className="lg:max-w-[752px] flex flex-col justify-start gap-6">
                 <div className="flex flex-col gap-4 text-white">
@@ -23,8 +23,8 @@ export default function Home() {
                     Entre em contato para consultorias estratégicas, conselhos executivos ou convites para palestras e aulas.
                   </p>
                 </div>
-                <div className="flex flex-col gap-6">
-                  <a href="" className="bg-white hover:bg-azul-claro flex items-center justify-center border-azul text-azul px-4 py-3 rounded-[4px]">
+                <div className="flex flex-col lg:flex-row gap-6">
+                  <a href="" className="bg-white hover:bg-[#BEDDFF] flex items-center justify-center border-azul text-azul px-4 py-3 rounded-[4px]">
                     Entrar em Contato
                   </a>
                   <a href="" className="bg-azul hover:bg-white flex items-center justify-center border border-white text-white hover:text-azul px-4 py-3 rounded-[4px]">
@@ -36,9 +36,9 @@ export default function Home() {
             </div>
           </div>
           <div className="bg-white flex justify-center">
-            <div className="w-full max-w-[1440px] p-4 lg:px-[96px] flex flex-col gap-8">
+            <div className="w-full max-w-[1440px] p-4 lg:py-[64px] lg:pt-[64px] lg:px-[96px] flex flex-col gap-8 lg:gap-[64px]">
               <div className="flex flex-col justify-center items-center gap-[32px]">
-                <p className="text-[32px] leading-[40px] flex text-center text-azul">
+                <p className="text-[32px] leading-[40px] flex text-center text-azul font-semibold">
                   Saiba como eu posso te ajudar
                 </p>
                 <div className="flex flex-col lg:flex-row w-full gap-[24px]">
@@ -116,58 +116,58 @@ export default function Home() {
             </div>
           </div>
           <div className="bg-azul flex justify-center">
-            <div className="w-full max-w-[1440px] p-4 lg:px-[96px] bg-azul flex flex-col gap-8 justify-center">
-              <div className="flex flex-col w-full max-w-[827px] gap-6 ">
-                <p className="text-[32px] leading-[40px] text-white">Projetos de Destaque</p>
-                <p className="text-[20px] leading-[28px] text-white">Uma curadoria de trabalhos que me desafiaram e definiram minha trajetória. Veja como transformo ideias em realidade com excelência.</p>
+            <div className="w-full max-w-[1440px] lg:py-[64px] p-4 lg:px-[96px] bg-azul flex flex-col gap-8 justify-center">
+              <div className="flex flex-col w-full gap-6 ">
+                <p className="text-[32px] leading-[40px] text-white">Projetos de Liderança em Inovação e Transformação Digital</p>
+                <p className="text-[20px] leading-[28px] text-white">Ao longo da minha trajetória como executivo de tecnologia e inovação, liderei projetos estratégicos voltados à transformação digital, uso de dados em larga escala e integração de novas tecnologias em setores complexos, como logística marítima, educação e economia digital. A seguir, destaco algumas dessas iniciativas que refletem minha experiência na criação de valor, eficiência operacional e inovação aplicada.</p>
               </div>
               <div className="flex flex-col gap-[22px]">
                 <div className="flex gap-6 bg-white px-[26px] py-[34px] rounded-[6px]">
-                  <img src="/Icon.svg"  className="w-[60px] h-[60px]" />
                   <div className="flex flex-col gap-4">
-                    <p className="text-[22px] leading-[32px] text-azul">Web design</p>
-                    <p className="text-[16px] leading-[22px] text-azul">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar elemen tempus hac dolor sit amet.</p>
+                    <p className="text-[22px] leading-[32px] text-azul">1. Laboratório de Inovação Tecnológica</p>
+                    <p className="text-[16px] leading-[22px] text-azul"><span className="font-bold">Resumo: </span>Estrutura corporativa voltada à pesquisa aplicada e inovação digital.</p>
+                    <p className="text-[16px] leading-[22px] text-azul">Liderei a criação de um laboratório de inovação dedicado a aplicar tecnologias emergentes — como Inteligência Artificial, automação e análise de dados — na modernização de processos corporativos. A iniciativa integrou pesquisa aplicada, desenvolvimento de protótipos e parcerias estratégicas, posicionando a organização na vanguarda da transformação digital e fortalecendo sua competitividade tecnológica e operacional.</p>
                   </div>
                 </div>
                 <div className="flex gap-6 bg-white px-[26px] py-[34px] rounded-[6px]">
-                  <img src="/Icon.svg"  className="w-[60px] h-[60px]" />
                   <div className="flex flex-col gap-4">
-                    <p className="text-[22px] leading-[32px] text-azul">Web design</p>
-                    <p className="text-[16px] leading-[22px] text-azul">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar elemen tempus hac dolor sit amet.</p>
+                    <p className="text-[22px] leading-[32px] text-azul">2. Portal Estratégico de Conteúdo Setorial</p>
+                    <p className="text-[16px] leading-[22px] text-azul"><span className="font-bold">Resumo: </span>Hub de inteligência e tendências em transformação digital.</p>
+                    <p className="text-[16px] leading-[22px] text-azul">Conduzi o desenvolvimento de um portal corporativo de notícias e análises estratégicas, voltado à difusão de conhecimento sobre inovação, automação e sustentabilidade. O projeto conectou executivos e especialistas, traduzindo o impacto da digitalização em insights práticos e consolidando o portal como uma referência de inteligência setorial.</p>
                   </div>
                 </div>
                 <div className="flex gap-6 bg-white px-[26px] py-[34px] rounded-[6px]">
-                  <img src="/Icon.svg"  className="w-[60px] h-[60px]" />
                   <div className="flex flex-col gap-4">
-                    <p className="text-[22px] leading-[32px] text-azul">Web design</p>
-                    <p className="text-[16px] leading-[22px] text-azul">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar elemen tempus hac dolor sit amet.</p>
+                    <p className="text-[22px] leading-[32px] text-azul">3. Conferência Internacional de Inovação e Tecnologia</p>
+                    <p className="text-[16px] leading-[22px] text-azul"><span className="font-bold">Resumo: </span>Evento corporativo para integração entre academia e mercado.</p>
+                    <p className="text-[16px] leading-[22px] text-azul">Idealizei e liderei a organização de uma conferência internacional sobre inovação tecnológica, reunindo especialistas em Inteligência Artificial, Pesquisa Operacional e transformação digital. O evento se tornou um espaço de referência para discutir tendências e compartilhar práticas de eficiência e otimização em operações complexas, aproximando teoria, tecnologia e estratégia empresarial.</p>
                   </div>
                 </div>
                 <div className="flex gap-6 bg-white px-[26px] py-[34px] rounded-[6px]">
-                  <img src="/Icon.svg"  className="w-[60px] h-[60px]" />
                   <div className="flex flex-col gap-4">
-                    <p className="text-[22px] leading-[32px] text-azul">Web design</p>
-                    <p className="text-[16px] leading-[22px] text-azul">Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar elemen tempus hac dolor sit amet.</p>
+                    <p className="text-[22px] leading-[32px] text-azul">4. Estratégia de Internacionalização Digital</p>
+                    <p className="text-[16px] leading-[22px] text-azul"><span className="font-bold">Resumo: </span>Estrutura corporativa voltada à pesquisa aplicada e inovação digital.</p>
+                    <p className="text-[16px] leading-[22px] text-azul">Coordenei uma estratégia de internacionalização digital, incorporando soluções de análise de dados, cloud computing e inteligência artificial para otimizar a atuação da organização em novos mercados. A iniciativa resultou em eficiência operacional, personalização de atendimento e maior alcance global, transformando a expansão internacional em um processo ágil e orientado por dados.</p>
                   </div>
                 </div>
               </div>
               <div className="w-full flex justify-center text-center">
-                <a href="" className="bg-azul-claro text-white w-full max-w-[524px] py-3 rounded-[4px]">
+                <a href="" className="bg-azul-claro hover:bg-white text-white hover:text-azul w-full max-w-[524px] py-3 rounded-[4px]">
                   Entrar em contato agora
                 </a>
               </div>
             </div>
           </div>
           <div className="bg-[#EFF6FF] flex justify-center">
-            <div className="w-full max-w-[1440px] p-4 lg:px-[96px] flex flex-col gap-8 justify-center">
+            <div className="w-full max-w-[1440px] p-4 lg:py-[64px] lg:px-[96px] flex flex-col gap-8 justify-center">
               <div className="w-gull flex justify-start">
                 <p className="text-[32px] leading-[42px] text-azul font-bold">Educação</p>
               </div>
               <div className="flex flex-col lg:justify-between lg:flex-row gap-4 text-[22px] leading-[32px]">
-                <div className="flex flex-col gap-6 font-bold lg:w-[348px]">
-                  <a className="text-[#7BBCFE]" href="">Formação Acadêmica</a>
-                  <a className="text-[#737373]" href="">Certificados</a>
-                  <a className="text-[#737373]" href="">Outros</a>
+                <div className="flex flex-col gap-6 lg:w-[348px]">
+                  <a className="text-[#7BBCFE] hover:text-azul" href="">Formação Acadêmica</a>
+                  <a className="text-[#737373] hover:text-azul" href="">Certificados</a>
+                  <a className="text-[#737373] hover:text-azul" href="">Outros</a>
                 </div>
                 <div className="flex flex-col gap-5 lg:w-[720px]">
                   <div className="flex flex-col gap-5 py-5">
@@ -217,7 +217,7 @@ export default function Home() {
                     Ao final do curso, os alunos estarão plenamente equipados com habilidades em gerenciamento avançado de dados e otimização, capacitando-os a assumir papéis de liderança em uma variedade de setores e organizações.</p>
                   </div>
                   <div className="h-[1px] bg-[#E7E7E6]"></div>
-                  <a className="flex justify-center items-center rounded-[4px] border border-azul bg-white text-azul w-full py-2" href="">Ver tudo</a>
+                  <a className="flex justify-center items-center rounded-[4px] border border-azul bg-white text-azul w-full py-2 hover:bg-[#BEDDFF]" href="https://www.linkedin.com/in/mprlsilva/details/education/" target="_blank" rel="noopener noreferrer" >Ver tudo</a>
                 </div>
               </div>
             </div>
@@ -299,9 +299,9 @@ export default function Home() {
           </div>
           <div className="bg-white flex justify-center">
             <div className="flex flex-col items-center w-full">
-              <div className="w-full bg-azul max-w-[1248px] flex flex-col items-center gap-6 px-4 py-10 lg:rounded-[8px]">
+              <div className="w-full bg-[url('/Call%20to%20Action%201.svg')] bg-cover max-w-[1248px] flex flex-col items-center gap-6 px-4 py-10 lg:rounded-[8px]">
                 <p className="text-center text-white text-[32px] leading-[40px] w-full max-w-[656px]">Precisa inovar? Vamos planejar sua transformação digital hoje mesmo!</p>
-                <a className="text-azul font-medium bg-white rounded-[4px] py-2 px-4 text-[16px] leading-[22px]" href="">Agendar consulta agora</a>
+                <a className="text-azul font-medium bg-white rounded-[4px] py-2 px-4 text-[16px] leading-[22px] hover:bg-[#BEDDFF]" href="https://wa.me/5521964757037?text=Olá,%20gostaria%20de%20entrar%20em%20contato%20para%20consultorias%20estratégicas,%20conselhos%20executivos%20ou%20convites%20para%20palestras%20e%20aulas" target="_blank" rel="noopener noreferrer">Agendar consulta agora</a>
               </div>
               <div className="w-full bg-[#E7E7E6]">
                 <Footer/>
