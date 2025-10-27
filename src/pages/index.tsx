@@ -14,7 +14,7 @@ export default function Home() {
       <Header/>
       <div className="lg:justify-center  flex flex-col gap-6 items-center">
         <div className="w-full">
-          <div className="bg-[url('/image%20hero%201.svg')] bg-cover flex justify-center">
+          <div id="inicio" className="bg-[url('/image%20hero%201.svg')] bg-cover flex justify-center">
             <div className="w-full max-w-[1440px] p-4 lg:px-[96px] lg:py-[202px]">
               <div className="lg:max-w-[752px] flex flex-col justify-start gap-6">
                 <div className="flex flex-col gap-4 text-white">
@@ -37,7 +37,7 @@ export default function Home() {
 
             </div>
           </div>
-          <div className="bg-white flex justify-center">
+          <div id="sobre-mim" className="bg-white flex justify-center">
             <div className="w-full max-w-[1440px] p-4 lg:py-[64px] lg:pt-[64px] lg:px-[96px] flex flex-col gap-8 lg:gap-[64px]">
               <div className="flex flex-col justify-center items-center gap-[32px]">
                 <p className="text-[32px] leading-[40px] flex text-center text-azul font-semibold">
@@ -117,7 +117,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="bg-azul flex justify-center">
+          <div id="experiencia" className="bg-azul flex justify-center">
             <div className="w-full max-w-[1440px] lg:py-[64px] p-4 lg:px-[96px] bg-azul flex flex-col gap-8 justify-center">
               <div className="flex flex-col w-full gap-6 ">
                 <p className="text-[32px] leading-[40px] text-white">Projetos de Liderança em Inovação e Transformação Digital</p>
@@ -160,7 +160,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="bg-[#EFF6FF] flex justify-center">
+          <div id="educacao" className="bg-[#EFF6FF] flex justify-center">
             <div className="w-full max-w-[1440px] p-4 lg:py-[64px] lg:px-[96px] flex flex-col gap-8 justify-center">
               <div className="w-gull flex justify-start">
                 <p className="text-[32px] leading-[42px] text-azul font-bold">Educação</p>
