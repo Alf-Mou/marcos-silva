@@ -7,6 +7,8 @@ import Footer from "@/components/footer";
 
 
 export default function Home() {
+  console.log("teste");
+  
   return (
     <main className="w-full font-poppins flex flex-col">
       <Header/>
